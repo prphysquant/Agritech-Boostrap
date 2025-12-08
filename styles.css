@@ -10,8 +10,10 @@
 }
 
 
+
+
 .image-hero {
-    width: 850px;
+    width: 950px !important;
     height: 350px !important;
     border-radius: 15px;
 }
@@ -205,7 +207,7 @@
 
 .jardinage {
     background-color: #edecec;
-    max-width: 350px;
+    max-width: 100%;
     color: #075634;
 }
 
@@ -214,12 +216,11 @@
     max-width: 700px;
     background-color: #456055;
     color: white;
-    "
 
 }
 
 
-/* Effet sur toute la card */
+
 .col-12.col-md-6.col-lg-4.d-flex.position-relative {
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
@@ -227,9 +228,8 @@
 
 .col-12.col-md-6.col-lg-4.d-flex.position-relative:hover {
     transform: translateY(-5px);
-    /* Légère montée */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    /* Ombre */
+
 }
 
 .col-12.col-md-6.col-lg-4.d-flex.position-relative:hover img {
@@ -238,12 +238,10 @@
 }
 
 .commentaires {
-    width: 60%;
+    width: 75%;
 }
 
-.names {
-    width: 40%;
-}
+
 
 .date-circle {
     position: absolute;
@@ -417,6 +415,38 @@
 }
 
 
+.footer-section {
+    background: #f5f5f5;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-links li:hover {
+    color: #075634;
+    transform: translateX(3px);
+}
+
+.footer-icon {
+    font-size: 1.3rem;
+    color: #000;
+    transition: 0.3s;
+}
+
+.footer-icon:hover {
+    color: #075634;
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    background: #075634;
+    color: #ffffff;
+}
+
+
 @media (max-width: 991px) {
     .section-hero .agri {
         width: 95%;
@@ -424,7 +454,7 @@
     }
 }
 
-/* Responsive mobile */
+
 @media (max-width: 425px) {
     .section-hero .agri {
         width: 98%;
@@ -454,7 +484,7 @@
     }
 
     .image-hero {
-        width: 650px;
+        width: 700px !important;
         height: 250px !important;
         border-radius: 15px;
     }
@@ -483,8 +513,8 @@
     }
 
     .image-hero {
-        width: 350px;
-        height: 150px !important;
+        width: 400px !important;
+        height: 200px !important;
         border-radius: 15px;
     }
 
@@ -510,18 +540,30 @@
         margin-left: -26px !important;
     }
 
-    .we-are {
-        width: 50px;
-        font-size: 1.1rem !important;
-        gap: 30px;
-        font-weight: 600;
-    }
+
 
     .are-confident {
-        font-size: 1rem;
+        display: flex !important;
+
+
     }
 
     .confident {
         font-size: 2.6rem;
     }
+
+    .names {
+        width: 75%;
+    }
+
+    .méteo {
+
+        max-width: 500px;
+        background-color: #456055;
+        color: white;
+        margin: 10px !important;
+
+    }
+
+
 }
