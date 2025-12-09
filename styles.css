@@ -415,9 +415,6 @@
 }
 
 
-.footer-section {
-    background: #f5f5f5;
-}
 
 .footer-links li {
     margin-bottom: 10px;
@@ -541,17 +538,6 @@
     }
 
 
-
-    .are-confident {
-        display: flex !important;
-
-
-    }
-
-    .confident {
-        font-size: 2.6rem;
-    }
-
     .names {
         width: 75%;
     }
@@ -561,9 +547,68 @@
         max-width: 500px;
         background-color: #456055;
         color: white;
-        margin: 10px !important;
+        margin: 20px !important;
 
     }
 
 
+}
+
+/* Pour mobile (425px et moins) */
+@media (max-width: 425px) {
+    .stats-section .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Assure que la ligne ne se brise pas */
+    .stats-section .flex-nowrap {
+        flex-wrap: nowrap !important;
+        overflow: visible;
+    }
+
+    /* Ajuste le titre */
+    .stats-section .are-confident {
+        font-size: 1.2rem;
+        white-space: nowrap;
+        margin-right: 10px;
+    }
+
+    /* Ajuste les statistiques */
+    .confident {
+        font-size: 1.3rem;
+        min-width: 28px;
+    }
+
+    .stats-section h5 {
+        font-size: 0.8rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .stats-section small {
+        font-size: 0.5rem;
+        line-height: 1;
+    }
+
+    /* Réduit les espacements */
+    .stats-section .gap-2 {
+        gap: 6px !important;
+    }
+
+    .stats-section .gap-3 {
+        gap: 10px !important;
+    }
+
+    .are-confident {
+        background-color: #00b318;
+    }
+
+    .arre {
+        background-color: #bda138;
+        width: 150px;
+    }
+
+    .col-auto {
+        font-size: 0.4rem;
+    }
 }
