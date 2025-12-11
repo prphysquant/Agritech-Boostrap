@@ -9,9 +9,6 @@
 
 }
 
-
-
-
 .image-hero {
     width: 950px !important;
     height: 350px !important;
@@ -19,13 +16,10 @@
 }
 
 
-
-
 .bar {
     font-size: 2rem;
     color: #00b318;
 }
-
 
 .nav-link {
     transition: all 0.3s ease;
@@ -131,8 +125,6 @@
 
 }
 
-
-
 .img-home {
     height: 500px;
 }
@@ -219,8 +211,6 @@
 
 }
 
-
-
 .col-12.col-md-6.col-lg-4.d-flex.position-relative {
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
@@ -240,8 +230,6 @@
 .commentaires {
     width: 75%;
 }
-
-
 
 .date-circle {
     position: absolute;
@@ -336,7 +324,7 @@
 }
 
 .img-deux:hover {
-    transform: scale(1.05) rotate(1deg);
+    transform: scale(1.05) rotate(4deg);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
@@ -414,8 +402,6 @@
     display: none !important;
 }
 
-
-
 .footer-links li {
     margin-bottom: 10px;
     cursor: pointer;
@@ -472,8 +458,6 @@
         display: none;
     }
 }
-
-
 
 @media screen and (max-width: 768px) {
     .menu-btn {
@@ -548,33 +532,27 @@
         background-color: #456055;
         color: white;
         margin: 20px !important;
-
     }
-
-
 }
 
-/* Pour mobile (425px et moins) */
 @media (max-width: 425px) {
     .stats-section .container-fluid {
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    /* Assure que la ligne ne se brise pas */
     .stats-section .flex-nowrap {
         flex-wrap: nowrap !important;
         overflow: visible;
     }
 
-    /* Ajuste le titre */
+
     .stats-section .are-confident {
         font-size: 1.2rem;
         white-space: nowrap;
         margin-right: 10px;
     }
 
-    /* Ajuste les statistiques */
     .confident {
         font-size: 1.3rem;
         min-width: 28px;
@@ -590,7 +568,6 @@
         line-height: 1;
     }
 
-    /* Réduit les espacements */
     .stats-section .gap-2 {
         gap: 6px !important;
     }

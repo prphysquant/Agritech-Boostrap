@@ -30,6 +30,11 @@ body {
     z-index: 10;
 }
 
+.btn-secondar {
+    background-color: rgb(18, 138, 138) !important;
+    border-radius: 30px;
+}
+
 
 
 .logo-container {
@@ -61,4 +66,15 @@ body {
 .required::after {
     content: " *";
     color: red;
+}
+
+.sapin {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+
 }
